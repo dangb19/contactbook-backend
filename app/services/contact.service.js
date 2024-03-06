@@ -76,7 +76,7 @@ class ContactService {
   }
 
   async findFavorite() {
-    return await this.Contact.find({ favorite: true });
+    return await this.find({ favorite: true });
   }
 }
 
